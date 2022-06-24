@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Favorite Bands</title>
+  </head>
+  <body>
+
+    <script>
+
+      var myBands = ["Queen", "Joan Jett", "Led Zeppelin", "Metallica", "The Who"];
+
+      var userGuess = prompt("Which band or artist do you like?");
+
+      var userGuessLower = userGuess.toLowerCase();
+
+      if (myBands.indexOf(userGuessLower) === -1) {
+        alert("Boy you have No Taste");
+      }
+      else {
+        alert("Yeah They're pretty awesome");
+      }
+
+    </script> 
+
+  </body>
+</html>
